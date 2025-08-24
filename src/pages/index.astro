@@ -1,16 +1,29 @@
 ---
-
+import Default from "../layouts/Default.astro";
+import YouTube from "../components/YouTube.astro";
+import ClueCard from "../components/ClueCard.astro";
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>My Astro Site</h1>
-	</body>
-</html>
+<Default pageTitle="Draindle">
+	<h1 style="font-size: 7rem;">DRAINDLE</h1>
+    <div id="author-info">
+        <h2>THE DAILY DRAIN GANG SONG GUESSING GAME</h2>
+        <p>by spencrc</p>
+    </div>
+    <hr>
+    <div id="game-links">
+        <p>ARCHIVE</p>
+        <p>DAY #000</p>
+        <p>HELP</p>
+    </div>
+    <div id="progress">
+        <p><u>1</u></p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+    </div>
+	<ClueCard label="0.5 seconds" time='0.5'/>
+    <ClueCard label="1 second" time='1'/>
+    <ClueCard label="Start of song" time='3'/>
+	<YouTube videoId="sZYB5fFCiA4"/>
+</Default>
