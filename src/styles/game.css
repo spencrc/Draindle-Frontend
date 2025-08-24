@@ -1,4 +1,5 @@
 .guess-frame {
+    overflow: hidden;
     background-color: lightgreen;
     border-radius: .5rem;
     width: 22.5rem;
