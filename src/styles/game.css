@@ -1,7 +1,7 @@
 .guess-frame {
     background-color: lightgreen;
     border-radius: .5rem;
-    width: 25rem;
+    width: 22.5rem;
     display: flex;
     flex-flow: column;
     padding-top: 1.5rem;
@@ -33,6 +33,7 @@ input {
     width: 100%;
     border: 0px solid transparent;
     padding: 1rem;
+    font-size: 1.25rem;
 }
 
 ::placeholder { /* Edge 12 -18 */
